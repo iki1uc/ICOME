@@ -1,28 +1,63 @@
-# KIpi · Ursache‑Wirkungsformel · Geometrie · QI/IQQ  
-KIpi ist der Parameter‑Koordinator des iki1uc‑Systems.  
-Er verbindet Ursache, Wirkung und Ergebnis zu einer arithmerischen Kausal‑Geometrie.
+# ICOME · iki1uc · GEO · MODUL · Formel-RAW
+
+ICOME ist der Summationskörper des iki1uc‑Systems.  
+Er verbindet **GEO (Formkörper)**, **MODUL (Kernkörper)** und die **Formel‑RAW** zu einem einzigen, messbaren Vektor.
 
 ---
 
-## Ursache‑Wirkungsformel (Grundmodell)
+## GEO · Formkörper (IX)
 
-Die KIpi‑Formel besteht aus drei Mengen:
+GEO definiert die äußere Form und die Bewegungsarten des Systems.  
+Es besteht aus **9 Bewegungen**, die als Vektoren wirken:
 
-U = {◉, 3}  
-W = {◎, ◆, △, ▣}  
-E = {81, 756, 27, ↺}
+- PUSH  
+- PULL  
+- SHIFT  
+- FLOW  
+- BREAK  
+- SPIN  
+- RISE  
+- DROP  
+- ROOT  
 
-Diese Mengen bilden die Ursache‑Wirkungs‑Kette:
-
-**KIpi(U → W → E)**
-
-- **Ursache**: Ursprung + Erstimpuls  
-- **Wirkung**: Mitte + Verzweigung + Aufstieg + Verdichtung  
-- **Ergebnis**: drei Resultate + Rückkehr
+Diese 9 Formen bilden die **IX‑Ebene** und sind die sichtbare Struktur jedes Vorgangs.
 
 ---
 
-## Geometrische Darstellung (ASCII‑Kausal‑Achse)
+## MODUL · Kernkörper (XI)
 
-Die Ursache‑Wirkungsformel besitzt eine interne geometrische Struktur:
+MODUL trägt die Bedeutung, Logik und das Axiom des Systems.
+
+### Bestandteile:
+
+- **PORT**  
+  - 0.33 Eingang  
+  - 0.66 Verarbeitung  
+  - 0.99 Ausgang  
+
+- **KIpi**  
+  - allIN  
+  - process  
+  - allOUT  
+
+- **Axiom 0.33 → 0.66 → 0.99**  
+  - Ursprung  
+  - Mitte  
+  - Spitze  
+
+MODUL ist die **XI‑Ebene** und bildet den inneren Kern jedes Vorgangs.
+
+---
+
+## Formel‑RAW · a/b/c
+
+ICOME nutzt die drei Grundschichten der Bildung:
+
+| Schicht | Bedeutung | Farbe | Rolle |
+|--------|-----------|--------|-------|
+| **a** | Fläche | grün | Ursache |
+| **b** | Körper | gelb | Wirkung |
+| **c** | Continuum | rot | Ergebnis |
+
+### Formel:
 
