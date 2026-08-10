@@ -1,9 +1,39 @@
-PUSH  = +>
-PULL  = <+
-SHIFT = <>
-FLOW  = ~>
-BREAK = !|
-SPIN  = @°
-RISE  = ^+
-DROP  = v-
-ROOT  = 0°
+# TOOLATOR-MAIN.raw · Ergebnis-Vektor · c · Continuum · TMP · Prefetch
+
+TOOLATOR.MAIN = {
+  prefetch: { c:"rot" },
+
+  bildung: { NG:"c" },
+
+  matrix: {
+    c: function(a,b,t){
+      return `c = a × b × ${t}`;
+    }
+  },
+
+  KIpi: {
+    W: { mitte:"◎", verzweig:"◆", anstieg:"△", verdichtung:"▣" },
+    E: { result_1:81, result_2:756, result_3:27, rueckkehr:"↺" },
+    chain: ["◎","◆","△","▣",81,756,27,"↺"]
+  },
+
+  TMP: {
+    W:[4,5,6],
+    E:[7,8,9]
+  },
+
+  vector: {
+    result: "c",
+    axis: "W → E",
+    color: "gelb-rot",
+    percent: "66% → 99%"
+  },
+
+  nutzen: function(a,b,t){
+    return `Nutzwert = ${a} × ${b} × ${t}`;
+  },
+
+  sum: function(a,b,c){
+    return `SUM = ${a} + ${b} + ${c}`;
+  }
+}
