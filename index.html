@@ -2,9 +2,65 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<title>iki1uc · Koordinaten‑Atomkörper</title>
+<title>ICOME · iki1uc · ORGANISATOR</title>
 
-<h2>ICOME · Continuum · Sonnen‑System</h2>
+<style>
+body { background:#000; color:#0f0; font-family:monospace; padding:20px; }
+h1,h2 { color:#0f0; }
+pre { background:#111; padding:20px; border:1px solid #333; margin-bottom:20px; }
+a { color:#0f0; }
+</style>
+</head>
+
+<body>
+
+<h1>ICOME · iki1uc · ORGANISATOR</h1>
+<p>Alle Module · Alle Ströme · Alle Vektoren · Alle RAW‑Formeln</p>
+
+<hr>
+
+<h2>ICOME · ID</h2>
+<pre>
+ID.ICOME = Σ◉◎▣
+
+Σ = Summation
+◉ = Ursache (a)
+◎ = Wirkung (b)
+▣ = Ergebnis / Continuum (c)
+
+ICOME = Σ(a + b + c)
+</pre>
+
+<hr>
+
+<h2>Strom‑Farben · 3×3</h2>
+<pre>
+a = grün  = 33% = Ursache
+b = gelb  = 66% = Wirkung
+c = rot   = 99% = Continuum
+
+strom-farbe-3.csv:
+a,grün,33,Ursache
+b,gelb,66,Wirkung
+c,rot,99,Continuum
+</pre>
+
+<hr>
+
+<h2>TMP · Start/End‑Sequenz</h2>
+<pre>
+slide: 1 → 4 → 7
+wette: 2 → 5 → 8
+score: 3 → 6 → 9
+
+Start = U (1–3)
+Shift = W (4–6)
+End   = E (7–9)
+</pre>
+
+<hr>
+
+<h2>Continuum · Sonnen‑System</h2>
 <pre>
 Sonne = c (rot) = Continuum
 Planeten = a (grün) + b (gelb)
@@ -13,80 +69,91 @@ Formel:
 c = a × b × t
 
 Interpretation:
-- a = Umlaufbahn (Fläche)
-- b = Planetenkörper (Wirkung)
-- c = Sonnenzeit / Tiefe / Ergebnis
+a = Umlaufbahn (Fläche)
+b = Planetenkörper (Wirkung)
+c = Sonnenzeit / Tiefe / Ergebnis
 
 ICOME = Σ(a + b + c)
 </pre>
-## ICOME · GEO · MODUL · Formel-RAW
 
-GEO = {PUSH, PULL, SHIFT, FLOW, BREAK, SPIN, RISE, DROP, ROOT}
-MODUL = PORT + KIpi + Axiom(0.33 → 0.66 → 0.99)
+<hr>
 
-a = Fläche (grün)
-b = Körper (gelb)
-c = Continuum (rot)
+<h2>3×3‑Matrix · Ursache/Wirkung/Ergebnis</h2>
+<pre>
+a-Matrix:
+[a11 a12 a13]
+[a21 a22 a23]
+[a31 a32 a33]
 
+b-Matrix:
+[b11 b12 b13]
+[b21 b22 b23]
+[b31 b32 b33]
+
+c-Matrix:
 c = a × b × t
-SUM = a + b + c
+</pre>
+
+<hr>
+
+<h2>KIpi · Ursache → Wirkung → Ergebnis</h2>
+<pre>
+U = a
+W = b
+E = c
 
 KIpi = a → b → c
-TMP = [1..9]
 
-ICOME = Σ(a + b + c)
-
-
-       
-<style>
-body{background:#000;color:#0f0;font-family:monospace;padding:20px;}
-h1,h2{color:#0f0;}
-pre{background:#111;padding:20px;border:1px solid #333;margin-bottom:20px;}
-table{width:100%;border-collapse:collapse;margin-top:20px;}
-td,th{border:1px solid #333;padding:6px;color:#0f0;}
-th{background:#111;}
-</style>
-</head>
-
-<body>
-
-<h1>iki1uc · Koordinaten‑Atomkörper</h1>
-<p>6‑Achse → 756‑Achse → SAT‑GEO‑VECTOR → KIpi → MAIN → MAU → TMP.</p>
-
-<!-- 1 · ATOMGEOMETRIE -->
-<h2>1 · Atomare Ursache‑Wirkungs‑Geometrie</h2>
-<pre>
-       ◉
-   ↗     ↘
-  3         9
-   ↘       ↗
-      ◎
-   ↗     ↘
-◉ ─◎─ ◆
-│   ╲  │
-△ ─▣─ 81
-╱   │   ╲
-3 ─ 9 ─ 756
-◆ → 756 → △
- 81       ◆
-   ↘       ↗
-      △
-   ↗     ↘
-  27       ▣
-   ↘       ↗
-      3 ↺
+TMP.U = [1,2,3]
+TMP.W = [4,5,6]
+TMP.E = [7,8,9]
 </pre>
 
-<p>Dies ist der KIpi‑Atomkörper:  
-Ursache → Wirkung → Ergebnis.</p>
+<hr>
 
-<!-- 2 · TMP-MATRIX -->
-<h2>2 · TMP‑Matrix (U → W → E)</h2>
+<h2>TOOLATOR · MAU / MAIN / KIpi</h2>
+<pre>
+MAU = Ursache-Vektor (a/b)
+MAIN = Ergebnis-Vektor (c)
+KIpi = Kausal-Vektor (a → b → c)
+</pre>
 
-<table>
-<tr>
-<th>Ebene</th><th>Operator</th><th>tmp_zug</th><th>tmp_hit</th><th>tmp_dump</th><th>tmp_lage</th><th>tmp_ursache</th><th>tmp_wirkung</th><th>tmp_ergebnis</th>
-</tr>
+<hr>
 
-<tr><td>Ursache</td><td>slide</td><td>1</td><td>tmp_hit_1</td><td>tmp_dump_1</td><td>tmp_lage_1</td><td>tmp_slide_start</td><td>tmp_slide_shift</td><td>tmp_slide_end</td></tr>
-<tr><td>Ursache
+<h2>JS‑Module</h2>
+<pre>
+360.js     = Rotation · QI · IQQ · 360° · 8X · 12X
+3mal3.js   = 3×3-Matrix · a/b/c
+OUR.js     = Universal-Modul · TMP · KIpi · ICOME
+KIpi.raw   = Ursache/Wirkung/Ergebnis
+MAU.raw    = a/b · Ursache/Wirkung
+MAIN.raw   = c · Continuum
+</pre>
+
+<hr>
+
+<h2>ICOME · Summationskörper</h2>
+<pre>
+Materialstand = a + b
+Nutzwert = c
+SUM = a + b + c
+</pre>
+
+<hr>
+
+<h2>Navigation</h2>
+<ul>
+    <li><a href="ID.html">ICOME · ID</a></li>
+    <li><a href="SUN.html">Continuum · Sonnen-System</a></li>
+    <li><a href="tmp.html">TMP · Start/End-Sequenz</a></li>
+    <li><a href="KIpi.raw">KIpi.raw</a></li>
+    <li><a href="MAU.raw">MAU.raw</a></li>
+    <li><a href="MAIN.raw">MAIN.raw</a></li>
+    <li><a href="OUR.js">OUR.js</a></li>
+    <li><a href="360.js">360.js</a></li>
+    <li><a href="3mal3.js">3mal3.js</a></li>
+    <li><a href="strom-farbe-3.csv">strom-farbe-3.csv</a></li>
+</ul>
+
+</body>
+</html>
