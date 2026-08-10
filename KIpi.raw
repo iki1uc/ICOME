@@ -1,5 +1,36 @@
-U = {◉, 3}
-W = {◎, ◆, △, ▣}
-E = {81, 756, 27, ↺}
+# TOOLATOR-KIpi.raw · Kausal-Vektor · U/W/E · 3×3 · TMP · Prefetch · ICOME
 
-KIpi(U → W → E)
+TOOLATOR.KIpi = {
+  prefetch: { a:"grün", b:"gelb", c:"rot" },
+
+  bildung: { BIL:"a", DU:"b", NG:"c" },
+
+  matrix: {
+    a: [["a11","a12","a13"],["a21","a22","a23"],["a31","a32","a33"]],
+    b: [["b11","b12","b13"],["b21","b22","b23"],["b31","b32","b33"]],
+    c: function(a,b,t){ return `c = a × b × ${t}`; }
+  },
+
+  KIpi: {
+    U:{kern:"◉",impuls:3},
+    W:{mitte:"◎",verzweig:"◆",anstieg:"△",verdichtung:"▣"},
+    E:{result_1:81,result_2:756,result_3:27,rueckkehr:"↺"},
+    chain:["◉",3,"◎","◆","△","▣",81,756,27,"↺"]
+  },
+
+  TMP: {
+    U:[1,2,3],
+    W:[4,5,6],
+    E:[7,8,9]
+  },
+
+  vector: {
+    axis: "U → W → E",
+    color: "grün → gelb → rot",
+    percent: "33% → 66% → 99%"
+  },
+
+  material: "a + b",
+  nutzen: "c",
+  sum: "a + b + c"
+}
