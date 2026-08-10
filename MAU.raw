@@ -1,9 +1,42 @@
-MAU.raw.PUSH   = +>
-MAU.raw.PULL   = <+
-MAU.raw.SHIFT  = <>
-MAU.raw.FLOW   = ~>
-MAU.raw.BREAK  = !|
-MAU.raw.SPIN   = @°
-MAU.raw.RISE   = ^+
-MAU.raw.DROP   = v-
-MAU.raw.ROOT   = 0°
+# TOOLATOR-MAU.raw · Ursache-Vektor · a/b · 3×3 · TMP · Prefetch
+
+TOOLATOR.MAU = {
+  prefetch: { a:"grün", b:"gelb" },
+
+  bildung: { BIL:"a", DU:"b" },
+
+  matrix: {
+    a: [
+      ["a11","a12","a13"],
+      ["a21","a22","a23"],
+      ["a31","a32","a33"]
+    ],
+    b: [
+      ["b11","b12","b13"],
+      ["b21","b22","b23"],
+      ["b31","b32","b33"]
+    ]
+  },
+
+  KIpi: {
+    U: { kern:"◉", impuls:3 },
+    W: { mitte:"◎", verzweig:"◆", anstieg:"△", verdichtung:"▣" },
+    chain: ["◉",3,"◎","◆","△","▣"]
+  },
+
+  TMP: {
+    U:[1,2,3],
+    W:[4,5,6]
+  },
+
+  vector: {
+    cause: "a",
+    effect: "b",
+    axis: "U → W",
+    color: "grün-gelb",
+    percent: "33% → 66%"
+  },
+
+  material: "a + b",
+  sum: "a + b"
+}
