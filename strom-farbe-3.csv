@@ -1,4 +1,4 @@
-﻿Strom,Farbe,Bedeutung,Körper
-a‑Strom,grün,Ursache,MAU
-b‑Strom,gelb,Wirkung,MAU
-c‑Strom,rot,Ergebnis / Continuum,MAIN
+strom,farbe,prozent,bedeutung
+a,grün,33,Ursache
+b,gelb,66,Wirkung
+c,rot,99,Continuum
