@@ -148,6 +148,27 @@ Er liefert:
 - 3×3‑Matrix‑Interpretation  
 - GEO‑Form  
 - MODUL‑Kern  
+## ICOME · Sachverhalt
+
+ICOME ist der Summationskörper des iki1uc‑Systems.
+
+Er verbindet:
+
+- GEO (Formkörper)
+- MODUL (Kernkörper)
+- Formel‑RAW (a/b/c)
+- KIpi (U → W → E)
+- TMP (1–9)
+- Prefetch (grün/gelb/rot)
+- 3×3‑Matrix
+- Materialstand
+- Nutzwert
+- Continuum
+
+ICOME = Σ(a + b + c)
+
+
+
 
 ICOME ist die **öffentliche, verständliche Darstellung** des iki1uc‑Systems.
 
